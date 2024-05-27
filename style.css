@@ -1,0 +1,552 @@
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+/* styling landing page section */
+.main_nav{
+    background-color: black;
+    height: 100vh;
+    padding: 10px 80px;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/img/sulta\ beach.jpg");
+    background-position: center;
+    background-size: cover;
+
+}
+.nav_item{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+    align-items: center;
+}
+.nav_item .logo{
+    height:70px;
+    width:70px;
+}
+.nav_item .logo img{
+    height:100%;
+    width:100%;
+}
+.nav_link{
+    display: flex;
+    gap: 40px; 
+}
+
+a{
+    color:#F6F5F2;
+    text-decoration: none;
+    font-size: 18px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+}
+.text_right{
+    margin: auto;
+    height: 60vh;
+    padding:40px 0;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+ 
+}
+.text_right h1{
+    padding:20px 0;
+    font-size: 35px;
+    width:50%;
+    text-transform: uppercase;
+    color: transparent;
+    background-image: linear-gradient(to right, #4545a8,#ff0000);
+    background-clip: text;
+    -webkit-background-clip:text;
+} 
+.text_right p{
+    font-size: 18px;
+    width: 50%;
+    line-height: 30px;
+    color:white;
+}
+.link_btn{
+    width: fit-content;
+    padding: 9px 15px;
+    margin:12px 0px;
+    color:white;
+    border-radius:10px;
+    border: none;
+    background-color:#4545a8;
+}
+.action{
+    display: none;
+}
+/* styling project section */
+.projects{
+  background-color:rgb(3, 66, 70);
+}
+.project_section{
+    height: 100vh;
+    border-top: 10px solid rgb(14, 39, 41);
+    display: flex;
+    align-items: center;
+}
+.project_inverse{
+    height: 100vh;
+    border-top: 10px solid rgb(14, 39, 41);
+    display: flex;
+    align-items: center;
+}
+.netflix_project_img{
+    flex: 1;
+}
+.netflix_project_bg1{
+    height: 500px;
+    width:500px;
+    background-position: center;
+    background-size: cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/img/movie-poster-background-p5qblffj7cvswl5g.jpg);
+    border-radius: 20px;
+}
+.netflix_project_bg2{
+    height: 500px;
+    width:500px;
+    background-position:center;
+    background-size: cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(/img/green.jpg);
+    border-radius: 20px;
+}
+.netflix_project_bg3{
+    height:500px;
+    width:500px;
+    background-position:bottom; 
+    background-size: cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(/img/blue.png);
+    border-radius: 20px;
+}
+.netflix_project{
+    padding: 0 80px;
+}
+.netflix_project img{
+    width: 100px;
+}
+.netflix_project_text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+}
+.color_project_text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+}
+.wellness_project_text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+}
+.netflix_project_text p{
+    line-height: 30px;
+    width:70%;
+    color:rgb(177, 177, 177);
+}
+.color_project_text p{
+    line-height: 30px;
+    width:70%;
+    color:rgb(177, 177, 177);
+   
+}
+.wellness_project_text p{
+    line-height: 30px;
+    width:70%;
+    color:rgb(177, 177, 177);
+}
+.netflix_project_intro{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.color_project_intro{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.netflix_project_intro h1{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: rgb(230, 16, 17);
+}
+.netflix_project_text span{
+    color: #ff0000;
+    font-weight:bolder;
+}
+.wellness_project_intro h1{
+    color:green;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.color_project_intro h1{
+    color:blue;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.netflix_project_btn {
+    width: fit-content;
+    padding: 5px 30px;
+    color:white;
+    border-radius:10px;
+    border: none;
+    background-color:rgb(230, 16, 17);
+}
+.wellness_project_btn {
+    width: fit-content;
+    padding: 5px 30px;
+    color:white;
+    border-radius:10px;
+    border: none;
+    background-color:green;
+}
+.color_project_btn{
+    width: fit-content;
+    padding: 5px 30px;
+    color:white;
+    border-radius:10px;
+    border: none;
+    background-color:blue;
+}
+
+/* Styling Skill section */
+.skill_section{
+    width:100%;
+    padding: 100px 0;
+    background-color:rgb(3, 66, 70);
+    border-top: 10px solid rgb(14, 39, 41);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    object-fit: cover;
+}
+.skill_section img{
+    border-radius: 200%;
+    width:100px;
+    height:15vh;     
+}
+.skill_training{
+    text-align: center;
+    padding: 18px 0;
+    color: #ff0080;
+    font-size: 20px;
+}
+.boxes{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+   
+}
+.box-1{
+    background-color: black;
+    width: 30%;
+    height: 30vh;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box-2{
+    background-color: black;
+    width: 30%;
+    height: 30vh;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box-3{
+    background-color: black;
+    width: 30%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.box-1 h1{
+    text-align: center;
+    padding: 10px 0;
+    color: #ff0080;
+}
+.box-2 h1{
+    text-align: center;
+    padding: 8px 0;
+    color: #ff0080;
+}
+.box-3 h1{
+    text-align: center;
+    padding: 15px 0;
+    color: #ff0080;
+}
+.box-1 p{
+    padding:0 18px;
+    line-height: 20px;
+    color: #F6F5F2;
+}
+.box-1 img{
+   height: 20px;
+   color: white;
+
+}
+.box-2 img{
+    height: 20px;
+    color: white;
+}
+.box-3 img{
+    height: 20px;
+    color: white;
+}
+.box-2 p{
+    padding:0 20px;
+    line-height: 20px;
+    color: #F6F5F2;
+}
+
+.box-3 p{
+    padding:0 20px;
+    line-height: 20px;
+    color: #F6F5F2;
+}
+
+/* styling experience section */
+.experience_section{
+    width:100%;
+    padding: 100px 0;
+    background-color:rgb(3, 66, 70);
+    border-top: 10px solid rgb(14, 39, 41);
+}
+.experience_training{
+    text-align: center;
+    padding: 18px 0;
+    color: #ff0080;
+    font-size: 20px;
+}
+.box1{
+    background-color: black;
+    width: 30%;
+    height: 30vh;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.box2{
+    background-color: black;
+    width: 30%;
+    height: 30vh;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px; 
+}
+.box3{
+    background-color: black;
+    width: 30%;
+    height: 30vh;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;  
+}
+.container h1{
+    text-align: center;
+    padding: 15px 0;
+    color: #ff0080;
+}
+.box1 p{
+    padding:0 20px;
+    line-height: 18px;
+    color: #F6F5F2;
+}
+.box2 p{
+    padding:0 20px;
+    line-height: 18px;
+    color: #F6F5F2;;  
+}
+.box3 p{
+    padding:0 20px;
+    line-height: 18px;
+    color: #F6F5F2;
+}
+
+/* styling footer section */
+.footer_text{
+    padding: 40px 80px;
+    background-color:rgb(3, 66, 70);
+    border-top: 10px solid rgb(14, 39, 41);
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;  
+}
+.footer_list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer_link{
+    color: rgb(177, 177, 177);
+    font-weight:200;
+}
+.footer_handles{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color:rgb(3, 66, 70);
+    color: white;
+    padding-bottom: 50px; 
+}
+.action{
+    display: none;
+    color:white;
+}
+.mobile_menu{
+    position:absolute;
+    background-color:rgb(3, 66, 70);
+    width:100%;
+    padding:40px 0;
+    top: -100%;
+    transition:0.3 ease-in-out;
+
+}
+.mobile_link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+}
+.reset{
+    top:15% !important;
+}
+.cancel{
+    display: none;
+}
+/* Responsiveness section for Tablet*/
+@media(max-width:834px){
+    .text_right h1{
+        font-size: 20px;
+    }
+    .text_right p{
+        font-size: 22px;
+        width: 100%;   
+    }
+    .project_section{
+        flex-direction:column;
+        gap: 40px;
+        padding:40px 16px;
+        height: auto;
+    }
+    .netflix_project_text p,
+    .wellness_project_text p,
+    .color_project_text p{
+        width:100%;
+    }   
+    .project_inverse{
+        flex-direction:column-reverse;
+        gap: 40px;
+        padding:40px 16px;
+        height: auto;
+    }
+    .skill_section img{
+        max-height:9vh;  
+    }
+    .box-1 img,
+    .box-2 img,
+    .box-3 img{
+       max-height:30px;
+       padding:10px 0;
+    }
+    .box1,
+    .box2,
+    .box3{
+        max-height:28vh;
+    }
+    .footer_text{
+        padding: 20px 16px;
+    }
+}
+@media(max-width:500px){
+    .nav_link{
+        display: none;
+    }
+    .action{
+        display: block;
+        font-size: 22px;   
+    }
+    .text_right h1{
+        padding:0 40px;
+        width:70vw;
+    }
+    .main_nav{
+        margin:0px;
+        padding:0;
+    }
+    .text_right p{
+        font-size: 15px;
+        width: 100vw;  
+    }
+    .netflix_project_bg1,
+    .netflix_project_bg2,
+    .netflix_project_bg3{
+        width:100vw;
+        border-radius:0;
+      
+    }
+    .boxes{
+        flex-direction: column;
+       
+    }
+    .box-1,
+    .box-2,
+    .box-3{
+        height:40vh;
+        width:100%;
+        border-radius:0px;
+       
+    }
+    .container{
+        flex-direction: column;
+        align-items: center;
+       
+    }
+    .box1,
+    .box2,
+    .box3{
+        height:80vh;
+        width:100%;
+        border-radius:0px
+    }
+
+    .footer_text{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .container h1{
+        padding:5px;
+       
+    }
+    .box1 p{
+        padding:15px;
+    }
+    .skill_section img{
+        height:18vh; 
+        width:fit-content; 
+        object-fit: cover;   
+    }
+}
